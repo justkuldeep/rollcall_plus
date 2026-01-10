@@ -45,10 +45,9 @@ The **RollCall+** solves these issues by using high-frequency (near-ultrasonic) 
 
 ```text
 .
-├── sonic-attend/
-│   ├── frontend/       # React application (Vite-powered)
-│   └── backend/        # Express.js server & Firebase integration
-└── README.md           # This documentation
+├── frontend/       # React application (Vite-powered)
+├── backend/        # Express.js server & Firebase integration
+├── README.md       # This documentation
 ```
 
 ## ⚙️ Setup & Installation
@@ -59,14 +58,14 @@ The **RollCall+** solves these issues by using high-frequency (near-ultrasonic) 
 
 ### 2. Backend Setup
 ```bash
-cd sonic-attend/backend
+cd backend
 npm install
 npm run dev
 ```
 
 ### 3. Frontend Setup
 ```bash
-cd sonic-attend/frontend
+cd frontend
 npm install
 npm run dev
 ```
